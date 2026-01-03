@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p onclick="fun1(this)">Hello</p>
+    <h2 onclick="this.style.fontSize='40px';this.style.color='blue';">Inline</h2>
+    <script>
+        function fun1(x){
+            x.innerHTML="Updated Content";
+            x.style.textTransform="uppercase";
+        }
+    </script>
+    
+</body>
+</html>

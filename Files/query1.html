@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+            color:white;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h3 id="heading3">Query Selector</h3>
+    <img src="2.png" width="300px" height="300px" class="i1"/>
+    <p>Paragraph 1</p>
+    <p>Paragraph 2</p>
+    <button onclick="my1()">Apply</button>
+    
+    <script>
+        function my1(){
+            document.querySelector("#heading3").innerHTML="Updated content";
+            document.querySelector(".i1").setAttribute("src","p.png");
+            document.querySelector(".i1").setAttribute("width","500","height","500");
+            document.querySelector("p").style.border="3px dashed red";
+            document.querySelector("p").style.padding="20px";
+            document.querySelector("p").innerHTML="Query Selector Example";
+           var d= document.querySelectorAll("p");
+           
+            document.querySelector("p").style.color="red";
+            for(d1 of d){
+                d1.style.fontSize="35px";
+            }
+
+        }
+    </script>
+</body>
+</html>
