@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" placeholder="Username" id="us1">
+    <input type="password" placeholder="Password" id="ps1">
+    <button onclick="fun1()">Check Validation</button>
+    <p id="msg"></p>
+    <script>
+        function fun1(){
+        var a=document.getElementById("us1").value;
+        var b=document.getElementById("ps1").value;
+        var m=document.getElementById("msg");
+        var p1=/^[@_0-9]/;
+        var p2=/^[A-Z a-z@!_-]{6,12}$/;
+        if (a.length===0 || b.length===0){
+            m.innerHTML="Fields are mandatory";
+        }
+        else if(p1.test(a)){
+            m.innerHTML="Username must not start with @_ or digit";
+        }
+        else if(!p2.test(b)){
+            m.innerHTML="Only 6-12 is allowed";
+
+        }
+        else{
+            m.innerHTML=`Welcome ${a}`;
+        }
+        }
+    </script>
+</body>
+</html>
