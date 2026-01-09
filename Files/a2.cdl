@@ -1,0 +1,51 @@
+<circuit>
+<CurrentPage>0</CurrentPage>
+<page 0>
+<PageViewport>0,0,114.6,-64.5</PageViewport>
+<gate>
+<ID>2</ID>
+<type>BE_JKFF_LOW_NT</type>
+<position>25,-25.5</position>
+<gparam>angle 0.0</gparam>
+<lparam>SYNC_CLEAR false</lparam>
+<lparam>SYNC_SET false</lparam></gate>
+<gate>
+<ID>4</ID>
+<type>BE_JKFF_LOW_NT</type>
+<position>34.5,-25.5</position>
+<gparam>angle 0.0</gparam>
+<lparam>SYNC_CLEAR false</lparam>
+<lparam>SYNC_SET false</lparam></gate>
+<gate>
+<ID>6</ID>
+<type>BE_JKFF_LOW_NT</type>
+<position>42.5,-25.5</position>
+<gparam>angle 0.0</gparam>
+<lparam>SYNC_CLEAR false</lparam>
+<lparam>SYNC_SET false</lparam></gate>
+<gate>
+<ID>8</ID>
+<type>AA_TOGGLE</type>
+<position>14,-18.5</position>
+<gparam>CLICK_BOX -0.76,-0.76,0.76,0.76</gparam>
+<gparam>angle 0.0</gparam>
+<lparam>OUTPUT_BITS 1</lparam>
+<lparam>OUTPUT_NUM 0</lparam></gate></page 0>
+<page 1>
+<PageViewport>0,0,114.6,-64.5</PageViewport></page 1>
+<page 2>
+<PageViewport>0,0,114.6,-64.5</PageViewport></page 2>
+<page 3>
+<PageViewport>0,0,114.6,-64.5</PageViewport></page 3>
+<page 4>
+<PageViewport>0,0,114.6,-64.5</PageViewport></page 4>
+<page 5>
+<PageViewport>0,0,114.6,-64.5</PageViewport></page 5>
+<page 6>
+<PageViewport>0,0,114.6,-64.5</PageViewport></page 6>
+<page 7>
+<PageViewport>0,0,114.6,-64.5</PageViewport></page 7>
+<page 8>
+<PageViewport>0,0,114.6,-64.5</PageViewport></page 8>
+<page 9>
+<PageViewport>0,0,114.6,-64.5</PageViewport></page 9></circuit>
