@@ -1,0 +1,8 @@
+var data=require('./json_3.json')
+console.log(data.Datastructures[0].Name)
+console.log(data.Datastructures[1].Name)
+console.log(data.xyz.Name)
+console.log(data.xyz.Topic)
+console.log(data.xyz.Topic[0])
+console.log(data.Datastructures[1])
+console.log(data.xyz)
