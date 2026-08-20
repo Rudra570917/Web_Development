@@ -12,7 +12,9 @@ function App() {
   }
   const removeValue = () => {
     console.log("value removed",Math.random());
-    setCounter(counter - 1);
+    if(counter > 0){
+      setCounter(counter - 1);
+    }
   }
  
 
