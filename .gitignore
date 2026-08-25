@@ -1,0 +1,10 @@
+.conda/
+debug.log
+.venv/
+.conda
+*.conda
+*.log
+log/
+debug.log/
+.vscode/
+.vscode
